@@ -1,0 +1,37 @@
+{
+	"name":"contao-monitoring/monitoring-bookmarks",
+	"description":"Provides components to define bookmark links for the Contao Monitoring system.",
+	"keywords":["contao","monitoring","bookmarks"],
+	"type":"contao-module",
+	"homepage":"https://github.com/ContaoMonitoring/monitoring-bookmarks",
+	"license":"LGPL-3.0-or-later",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/ContaoMonitoring/monitoring-bookmarks/issues",
+		"source":"https://github.com/ContaoMonitoring/monitoring-bookmarks"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core-bundle":"~4.4",
+		"contao-community-alliance/composer-plugin":"~3.0",
+		"contao-monitoring/monitoring":"~1.11",
+		"menatwork/contao-multicolumnwizard":"~3.3"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/MonitoringBookmarks":"system/modules/MonitoringBookmarks"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
