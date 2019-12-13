@@ -1,0 +1,40 @@
+div.tl_monitoring_test_bookmarks { background-image: url('icon_bookmarks.png'); }
+
+
+.popup-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup-menu .popup-menu-items {
+  visibility: hidden;
+  width: auto;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0 5px 0 5px;
+  border: 1px solid #afafaf;
+  text-align: left;
+  
+  /* Position the popup menu */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -100%;
+}
+
+.popup-menu:hover .popup-menu-items {
+  visibility: visible;
+}
+
+.popup-menu .popup-menu-items li:not(:last-child) {
+  border-bottom: 1px solid #afafaf;
+}
+
+.popup-menu .popup-menu-items a {
+  display: block;
+  white-space: nowrap;
+  padding: 5px 0 5px 0;
+}
+
